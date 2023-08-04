@@ -1,0 +1,13 @@
+/* Add application styles & imports to this file! */
+
+.icon-box {
+  display: flex;
+  gap: 5px;
+}
+.custom-icon {
+  color: Dodgerblue;
+  font-size: 1.2rem;
+  border: 1px solid silver;
+  border-radius: 0.25em;
+  padding: 0.5em;
+}
