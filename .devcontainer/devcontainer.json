@@ -1,8 +1,6 @@
 {
-	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:18",
 	"features": {
-		"ghcr.io/devcontainers-contrib/features/angular-cli:2": {
-			"version": "latest"
-		}
+		"ghcr.io/devcontainers-contrib/features/angular-cli:2": {}
 	}
 }

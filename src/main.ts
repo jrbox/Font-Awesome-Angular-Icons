@@ -1,5 +1,7 @@
-import 'zone.js/dist/zone';
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { bootstrapApplication } from '@angular/platform-browser';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import {
   faArrowLeft,
   faArrowRight,
@@ -8,9 +10,6 @@ import {
   faInfo,
   faDownload,
 } from '@fortawesome/free-solid-svg-icons';
-import { CommonModule } from '@angular/common';
-import { bootstrapApplication } from '@angular/platform-browser';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @Component({
   selector: 'my-app',
